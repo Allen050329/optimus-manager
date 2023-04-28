@@ -261,7 +261,7 @@ def _make_nvidia_device_section(config, bus_ids, xorg_extra_lines):
            "\tDriver \"nvidia\"\n"
     text += "\tBusID \"%s\"\n" % bus_ids["nvidia"]
     if "overclocking" in options:
-        text += "\tOption \"Coolbits\" \"28\"\n"
+        text += "\tOption \"Coolbits\" \"31\"\n"
     if "triple_buffer" in options:
         text += "\tOption \"TripleBuffer\" \"true\"\n"
 
